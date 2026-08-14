@@ -1,0 +1,27 @@
+print("Actividad 1")
+
+nombre = input("Ingresa tu nombre: ")
+
+redes_sociales = float(input("Horas dedicadas a redes sociales: "))
+mensajeria = float(input("Horas dedicadas a mensajería (WhatsApp, etc.): "))
+streaming = float(input("Horas dedicadas a streaming (Netflix, YouTube, etc.): "))
+videojuegos = float(input("Horas dedicadas a videojuegos: "))
+estudio_en_linea = float(input("Horas dedicadas a estudio en línea: "))
+
+
+tiempo_total = redes_sociales + mensajeria + streaming + videojuegos + estudio_en_linea
+porcentaje = (tiempo_total / 24) * 100
+
+
+print("\n===== RESUMEN DE TIEMPO DIGITAL =====")
+print(f"Usuario: {nombre}")
+print("--------------------------------------")
+print(f"Redes sociales:      {redes_sociales:.2f} h")
+print(f"Mensajería:          {mensajeria:.2f} h")
+print(f"Streaming:           {streaming:.2f} h")
+print(f"Videojuegos:         {videojuegos:.2f} h")
+print(f"Estudio en línea:    {estudio_en_linea:.2f} h")
+print("--------------------------------------")
+print(f"Tiempo total invertido: {tiempo_total:.2f} horas")
+print(f"Porcentaje del día utilizado: {porcentaje:.2f}%")
+print("======================================")
