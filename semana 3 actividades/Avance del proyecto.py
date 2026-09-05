@@ -1,10 +1,10 @@
 
-# Avzanze inicial
+# Avzanze del proyecto
 # Tacos La Chilaca
-# ============================================
-precio = 15.0        # precio unitario del taco
-existencia = 20       # tacos disponibles al inicio del dia
-total_dia = 0.0        # acumulador de ventas del dia
+# ======================
+precio = 15.0        
+existencia = 20      
+total_dia = 0.0        
 
 opc = 0
 
